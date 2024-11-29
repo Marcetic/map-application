@@ -2,8 +2,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgxMapboxGLModule } from 'ngx-mapbox-gl';
 import { AppComponent } from './app.component';
-import * as mapboxgl from 'mapbox-gl';
-
+import { MapboxGLModule } from 'ngx-mapbox-gl';
 @NgModule({
   declarations: [
     AppComponent
@@ -11,7 +10,7 @@ import * as mapboxgl from 'mapbox-gl';
   imports: [
     BrowserModule,
     NgxMapboxGLModule,
-    MapboxModule
+    MapboxGLModule
   ],
   providers: [],
   bootstrap: [AppComponent]
